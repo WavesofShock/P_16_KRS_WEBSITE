@@ -1,0 +1,65 @@
+.light{
+    background-color: white;
+    color: black;
+}
+.light > p a{
+    color: black;
+}
+.light li a{
+    color: black;
+}
+.light li{
+    background-color: white;
+}
+.light li ul{
+    background-color: white;
+}
+
+@keyframes hover{
+    from{background-color: white}
+    to{background-color: #222;} 
+}
+.navHover li:hover {
+    border: 1px solid white;
+    background-color: #222;
+    border-radius: 10px;
+    border-width: inherit;
+    animation: hover .25s 1;
+}
+.navHover li a:hover {
+    color:white;
+}
+
+@keyframes hoverDark{
+    from{background-color: #222}
+    to{background-color: white;} 
+}
+
+
+
+.dark{
+    background-color: #15151a;
+    color: white;
+}
+.dark > p a{
+    color: white;
+}
+.dark li a{
+    color: white;
+}
+.dark li{
+    background-color: #15151a;
+}
+.dark li ul{
+    background-color: #15151a;
+}
+.navHoverDark li:hover {
+    border: 1px solid #222;
+    background-color: white;
+    border-radius: 10px;
+    border-width: inherit;
+    animation: hoverDark .25s 1;
+}
+.navHoverDark li a:hover {
+    color:#222;
+}

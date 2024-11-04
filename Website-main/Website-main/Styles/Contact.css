@@ -1,0 +1,45 @@
+.hoverDark{
+    border: 1px solid #222;
+    border-radius: 10px;
+    border-width: inherit;
+    background-color: #23232b;
+    animation: font2 0.5s 1;;
+    font-size:45px;
+}
+.hoverDark:hover{
+    border: 1px solid #222;
+    border-radius: 10px;
+    border-width: inherit;
+    animation: font 0.5s 1;
+    animation-direction: linear;
+    color:black;
+    font-size:60px;
+}
+
+@keyframes font {
+    from{font-size: 45px;}
+    to{font-size: 60px;}
+}
+
+@keyframes font2 {
+    from{font-size: 60px;}
+    to{font-size: 45px;}
+}
+
+.hover{
+    border: 1px solid #222;
+    border-radius: 10px;
+    border-width: inherit;
+    background-color: white;
+    animation: font2 0.5s 1;;
+    font-size:45px;
+}
+.hover:hover{
+    border: 1px solid #222;
+    border-radius: 10px;
+    border-width: inherit;
+    animation: font 0.5s 1;
+    animation-direction: linear;
+    color:black;
+    font-size:60px;
+}

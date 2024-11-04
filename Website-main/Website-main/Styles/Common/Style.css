@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin Sans&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav {
+    width : 100%;
+    height:  60px;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;   
+}
+nav p a{
+    color:#222;
+    font-family: "Josefin Sans", sans-serif;
+}
+.title{
+    margin: auto;
+    width: 50%;
+    padding: 100px 0;
+    font-size: 75px;
+    text-align: center;
+}
+.ul-alignment{
+    padding: 10px 0;
+    font-size: 45px;;
+}
+/* image */
+.centre{
+    margin: auto;
+    width: 50%;
+    padding: 375px 0;
+    font-size: 75px;
+    text-align: center;
+}
+
+.topnav{
+    position: fixed;
+    top:0px;
+}
+
+.image-alignment{
+    padding-right: 10px;
+    vertical-align: middle;
+    width: 50;
+    height: 50;
+}
+.brackets{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    padding: 0px 400px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+
+.flex-contain li {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.round{
+    border-radius: 4px 4px 4px 4px;
+}
+
+nav p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 35px;
+    line-height: 55px;
+    float :left;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+nav input{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 19px;
+    float: right;
+    padding-right: 20px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    color: #222;
+    font-size: 25px;
+    padding: 16.2px 14px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li:hover{
+    color: #669999;
+}
+nav ul li ul{
+    display: none;
+    position:  absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li ul li a{
+    padding: 19px 20px;
+    background-color: #f3f3f3;
+    
+    
+}
+nav ul li ul li{
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li input{
+    height:10 px;
+    width: 200px;
+    padding: 14px;
+}
